@@ -42,7 +42,7 @@ while opcao != '0': #usando while para fazer um loop, com !="0" para só sair qu
     print("4. Ver Contatos de Emergência")
     print("0. Sair da Aplicação")
 
-    opcao = input("Digite o número da opção desejada: ") #variavel com input para receber a opção do usuario
+    opcao = input("Digite o número da opção desejada: ").strip() #input do usuario, sem espaços antes/depois
 
     if opcao == '1': #verifica se a opção é igual a 1, se for, a lista de areas de risco é mostrada
         print("\n--- ÁREAS DE RISCO DE ENCHENTE ---")
